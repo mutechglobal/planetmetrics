@@ -35,10 +35,10 @@ const Index = () => {
                 {/*=== Hero Content ===*/}
                 <div className="hero-content">
                   <h1 className="wow fadeInUp" data-wow-delay=".4s">
-                    Green Environments Make You Happy and provide Oxygen
+                  Smart Solutions For Sustainable Future
                   </h1>
                   <p className="wow fadeInDown" data-wow-delay=".6s">
-                    We Provide Beautiful Gardening &amp; Landscaping
+                  We generate innovative ideas to achieve sustainable goals
                   </p>
                   <div
                     className="hero-button mb-30 wow fadeInUp"
@@ -47,8 +47,8 @@ const Index = () => {
                     <Link legacyBehavior href="/about">
                       <a className="main-btn golden-btn mb-10">Explore More</a>
                     </Link>
-                    <Link legacyBehavior href="/index">
-                      <a className="main-btn filled-btn mb-10">How It Work</a>
+                    <Link legacyBehavior href="/contact">
+                      <a className="main-btn filled-btn mb-10">Connect Now</a>
                     </Link>
                   </div>
                 </div>
@@ -60,7 +60,7 @@ const Index = () => {
                   data-wow-delay=".75s"
                 >
                   <img
-                    src="assets/images/hero/hero-three_one.jpg"
+                    src="assets/images/hero/hero2.jpg"
                     alt="Hero Image"
                   />
                   <div className="shape hero-svg">
@@ -109,12 +109,12 @@ const Index = () => {
                 <div className="single-features-item-two mb-40 wow fadeInUp">
                   <div className="text">
                     <div className="icon">
-                      <i className="fl-icon flaticon-watering-plants" />
+                      <i className="fl-icon fas fa-globe-americas" />
                       <a href="#" className="icon-btn">
                         <i className="fal fa-long-arrow-right" />
                       </a>
                     </div>
-                    <h5 className="title">Garden Maintenance</h5>
+                    <h5 className="title">Sustainability Modeling</h5>
                   </div>
                 </div>
               </div>
@@ -123,12 +123,12 @@ const Index = () => {
                 <div className="single-features-item-two mb-40 wow fadeInDown">
                   <div className="text">
                     <div className="icon">
-                      <i className="fl-icon flaticon-watering-plants" />
+                      <i className="fl-icon fas fa-history" />
                       <a href="#" className="icon-btn">
                         <i className="fal fa-long-arrow-right" />
                       </a>
                     </div>
-                    <h5 className="title">Garden Overhauls</h5>
+                    <h5 className="title">Change Detection</h5>
                   </div>
                 </div>
               </div>
@@ -137,12 +137,12 @@ const Index = () => {
                 <div className="single-features-item-two mb-40 wow fadeInUp">
                   <div className="text">
                     <div className="icon">
-                      <i className="fl-icon flaticon-watering-plants" />
+                      <i className="fl-icon fas fa-chart-bar" />
                       <a href="#" className="icon-btn">
                         <i className="fal fa-long-arrow-right" />
                       </a>
                     </div>
-                    <h5 className="title">Landscape Design</h5>
+                    <h5 className="title">Data Analysis</h5>
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@ const Index = () => {
                       <i className="fas fa-check" />
                     </div>
                     <h2 className="number">
-                      <Counter end={859} />
+                      <Counter end={50} />+
                     </h2>
                     <p>Projects Complete</p>
                   </div>
@@ -187,7 +187,7 @@ const Index = () => {
                       <i className="fas fa-check" />
                     </div>
                     <h2 className="number">
-                      <Counter end={683} />+
+                      <Counter end={20} />+
                     </h2>
                     <p>Expert Team Member</p>
                   </div>
@@ -201,7 +201,7 @@ const Index = () => {
                       <i className="fas fa-check" />
                     </div>
                     <h2 className="number">
-                      <Counter end={860} />+
+                      <Counter end={10} />+
                     </h2>
                     <p>Awards Winning</p>
                   </div>
@@ -213,7 +213,7 @@ const Index = () => {
         {/*=== Experience Box ===*/}
         <div className="experience-box-two wow fadeInRight">
           <h2 className="number">
-            <Counter end={25} />
+            <Counter end={10} />
           </h2>
           <h6>Years Of Experience</h6>
           <Link legacyBehavior href="/about">
@@ -233,7 +233,7 @@ const Index = () => {
               <div className="single-category-item mb-40 wow fadeInLeft">
                 <div className="inner-category">
                   <div className="text">
-                    <h3 className="title">Gardening</h3>
+                    <h3 className="title">GHG Accounting and Mitigation</h3>
                   </div>
                   <div className="icon">
                     <i className="fal fa-long-arrow-right" />
@@ -246,7 +246,7 @@ const Index = () => {
               <div className="single-category-item mb-40 wow fadeInUp">
                 <div className="inner-category">
                   <div className="text">
-                    <h3 className="title">Landscape</h3>
+                    <h3 className="title">Satellite Remote Sensing</h3>
                   </div>
                   <div className="icon">
                     <i className="fal fa-long-arrow-right" />
@@ -259,7 +259,7 @@ const Index = () => {
               <div className="single-category-item mb-40 wow fadeInDown">
                 <div className="inner-category">
                   <div className="text">
-                    <h3 className="title">Garden Overhauls</h3>
+                    <h3 className="title">Water Resource Management</h3>
                   </div>
                   <div className="icon">
                     <i className="fal fa-long-arrow-right" />
@@ -272,7 +272,7 @@ const Index = () => {
               <div className="single-category-item mb-40 wow fadeInRight">
                 <div className="inner-category">
                   <div className="text">
-                    <h3 className="title">Nature Green</h3>
+                    <h3 className="title">Wild Fire Mitigation</h3>
                   </div>
                   <div className="icon">
                     <i className="fal fa-long-arrow-right" />
@@ -304,14 +304,13 @@ const Index = () => {
                     <div className="section-title mb-25 wow fadeInUp">
                       <span className="sub-title">
                         <i className="flaticon-plant" />
-                        About Gardening
+                        About Planetmetrics
                       </span>
-                      <h2>Perfect Gardening The Result Of Nature</h2>
+                      <h2>Experience a New Age of Intelligence</h2>
                     </div>
                     <p className="mb-40 wow fadeInDown">
-                      Sed ut perspiciatis unde omnis iste natus voluptatem
-                      accusantiue doloremque laudantium totam rem aperiam, eaque
-                      ipsa quae abilloy inventore
+                     Our values revolve around transparency, collaboration, and innovation. We firmly believe that collective effort can engender a sustainable 
+                      and equitable future for all.
                     </p>
                     <div className="row">
                       <div className="col-sm-6">
@@ -320,11 +319,10 @@ const Index = () => {
                           <div className="text">
                             <h5>
                               <i className="far fa-angle-double-right" />
-                              Gardens
+                              Our Approach
                             </h5>
                             <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
+                            Planetmetrics is actively fusing the understanding of the physical and earth systems with recent developments in machine learning and data mining.
                             </p>
                           </div>
                         </div>
@@ -335,11 +333,10 @@ const Index = () => {
                           <div className="text">
                             <h5>
                               <i className="far fa-angle-double-right" />
-                              Urbans
+                              Our Mission
                             </h5>
                             <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
+                            We Drive with the purpose of producing ideas and recommendations to address the objectives of sustainable development.
                             </p>
                           </div>
                         </div>
@@ -350,11 +347,10 @@ const Index = () => {
                           <div className="text">
                             <h5>
                               <i className="far fa-angle-double-right" />
-                              Maintenance
+                              Our Vision
                             </h5>
                             <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
+                            To create connections and efforts aimed at attaining the sustainable development goals.
                             </p>
                           </div>
                         </div>
@@ -365,11 +361,10 @@ const Index = () => {
                           <div className="text">
                             <h5>
                               <i className="far fa-angle-double-right" />
-                              Event &amp; Programs
+                              Our Values
                             </h5>
                             <p>
-                              Ut enim minima veniam nostrum exercitationem
-                              corporis
+                            We are committed to integrity, innovation, and inclusivity in our journey towards sustainable development. 
                             </p>
                           </div>
                         </div>
@@ -393,7 +388,7 @@ const Index = () => {
                   <i className="flaticon-plant" />
                   What We Do
                 </span>
-                <h2>We Care Your Garden &amp; Landscape</h2>
+                <h2>Analysis &amp; Mitigation</h2>
               </div>
             </div>
           </div>
@@ -404,15 +399,15 @@ const Index = () => {
                 data-wow-delay=".2s"
               >
                 <div className="icon">
-                  <i className="flaticon-scissors" />
+                  <i className="flaticon-park" />
                 </div>
                 <div className="text">
                   <h4 className="title">
                     <Link legacyBehavior href="/service-details">
-                      <a>Spring Cleaning</a>
+                      <a>Green House Gas</a>
                     </Link>
                   </h4>
-                  <p>Sed ut perspiciatis omnisey natus voluptate accusa</p>
+                  <p>Greenhouse Gas Accounting &amp; Mitigation</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
@@ -432,10 +427,10 @@ const Index = () => {
                 <div className="text">
                   <h4 className="title">
                     <Link legacyBehavior href="/service-details">
-                      <a>Irrigation &amp; Drainage</a>
+                      <a>Water Resource</a>
                     </Link>
                   </h4>
-                  <p>Quis autem reprehe volutate esse quam molestiae</p>
+                  <p>Sustainable Water Resource Management</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
@@ -450,15 +445,15 @@ const Index = () => {
                 data-wow-delay=".3s"
               >
                 <div className="icon">
-                  <i className="flaticon-yard" />
+                  <i className="flaticon-management" />
                 </div>
                 <div className="text">
                   <h4 className="title">
                     <Link legacyBehavior href="/service-details">
-                      <a>Snow &amp; Ice Removal</a>
+                      <a>Wild Fire</a>
                     </Link>
                   </h4>
-                  <p>We denounce with righteous indignation and dislike</p>
+                  <p>Understanding and Mitigating Wildfires</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
@@ -473,15 +468,15 @@ const Index = () => {
                 data-wow-delay=".35s"
               >
                 <div className="icon">
-                  <i className="flaticon-growing" />
+                  <i className="flaticon-vision" />
                 </div>
                 <div className="text">
                   <h4 className="title">
                     <Link legacyBehavior href="/service-details">
-                      <a>Lawn Fertilization</a>
+                      <a>Air Quality</a>
                     </Link>
                   </h4>
-                  <p>To take triviale exam which undertakes laborious</p>
+                  <p>Air Quality Dynamics and Modeling</p>
                   <Link legacyBehavior href="/service-details">
                     <a className="icon-btn">
                       <i className="fal fa-long-arrow-right" />
@@ -504,7 +499,7 @@ const Index = () => {
             data-wow-delay=".2s"
           >
             {/*====== Project Item ======*/}
-            <div className="single-project-item-four">
+            {/* <div className="single-project-item-four">
               <div className="project-img">
                 <img
                   src="assets/images/gallery/project-1.jpg"
@@ -536,9 +531,9 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*====== Project Item ======*/}
-            <div className="single-project-item-four">
+            {/* <div className="single-project-item-four">
               <div className="project-img">
                 <img
                   src="assets/images/gallery/project-2.jpg"
@@ -570,9 +565,9 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*====== Project Item ======*/}
-            <div className="single-project-item-four">
+            {/* <div className="single-project-item-four">
               <div className="project-img">
                 <img
                   src="assets/images/gallery/project-3.jpg"
@@ -604,9 +599,9 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/*====== Project Item ======*/}
-            <div className="single-project-item-four">
+            {/* <div className="single-project-item-four">
               <div className="project-img">
                 <img
                   src="assets/images/gallery/project-4.jpg"
@@ -638,7 +633,7 @@ const Index = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </section>
@@ -651,9 +646,9 @@ const Index = () => {
               <div className="section-title text-center mb-50 wow fadeInDown">
                 <span className="sub-title">
                   <i className="flaticon-plant" />
-                  Team Member
+                  Team Planetmetrics
                 </span>
-                <h2>Meet Our Expert Gardener</h2>
+                <h2>Meet Our Experts </h2>
               </div>
             </div>
           </div>
@@ -793,7 +788,7 @@ const Index = () => {
                 className="experience-box mt-25 mb-40 text-center wow fadeInUp"
                 data-wow-delay=".35s"
               >
-                <h2 className="fill-text">25+</h2>
+                <h2 className="fill-text">20+</h2>
                 <h4>Experience Team Member</h4>
                 <Link legacyBehavior href="/team">
                   <a className="btn-link">
@@ -806,56 +801,9 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Team Section ======*/}
-      {/*====== Start Features Section ======*/}
-      <section className="features-seciton pb-50">
-        <div className="container">
-          <div className="row align-items-xl-end">
-            <div className="col-lg-6">
-              {/*====== Features Image Box ======*/}
-              <div className="features-image-box mb-50 wow fadeInLeft">
-                <img
-                  src="assets/images/features/features-10.png"
-                  alt="Features Image"
-                />
-              </div>
-            </div>
-            <div className="col-lg-6">
-              {/*====== Features Content Box ======*/}
-              <div className="features-content-box mb-50 wow fadeInRight">
-                <div className="section-title mb-20">
-                  <span className="sub-title">
-                    <i className="flaticon-plant" />
-                    Modern Gardening
-                  </span>
-                  <h2>We Offers Landscape &amp; Tree Plantations</h2>
-                </div>
-                <p className="mb-35">
-                  Quis autem vel eum iure reprehenderit qui in voluptate velit
-                  esse quam nihil molestiae consequatur vel illum qui dolorem
-                </p>
-                <ul className="features-list">
-                  <li>
-                    <i className="fal fa-long-arrow-right" />
-                    Quality Gardening
-                  </li>
-                  <li>
-                    <i className="fal fa-long-arrow-right" />
-                    Dedicated Team Members
-                  </li>
-                  <li>
-                    <i className="fal fa-long-arrow-right" />
-                    Guarantee Service &amp; No Hidden Cost{" "}
-                  </li>
-                </ul>
-                <Link legacyBehavior href="/about">
-                  <a className="main-btn primary-btn">Learn More Us</a>
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      {/*====== End Features Section ======*/}
+
+   
+      
       {/*====== Start Testimonial Section ======*/}
       <section className="testimonial-section">
         <div className="container-fluid">
@@ -878,10 +826,10 @@ const Index = () => {
                       </div>
                       <div className="text">
                         <h2 className="number">
-                          <Counter end={372} />+
+                          <Counter end={50} />+
                         </h2>
                         <h4>
-                          Global Clients Happy to Get Our gardening Services{" "}
+                          Global Clients Happy to Get Our Services{" "}
                         </h4>
                       </div>
                     </div>
@@ -889,6 +837,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
+            
             {/*====== Testimonial Area ======*/}
             <div className="testimonial-area pt-70 pb-50 pl-15 pr-15 wow fadeInUp">
               <div className="container">
@@ -1096,6 +1045,7 @@ const Index = () => {
         </div>
       </section>
       {/*====== End Testimonial Section ======*/}
+      
       {/*====== Start Blog Section ======*/}
       <section className="blog-section pt-100 pb-60">
         <div className="container">

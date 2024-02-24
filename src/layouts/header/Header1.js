@@ -24,8 +24,7 @@ const Header1 = () => {
                 {/*====== Top Left ======*/}
                 <div className="top-left">
                   <span>
-                    Welcome to Gadden a modern Gardening &amp; Landscape Contact
-                    Us
+                    Welcome to Planetmetrics
                   </span>
                 </div>
               </div>
@@ -45,12 +44,7 @@ const Header1 = () => {
                     </li>
                     <li>
                       <a href="#">
-                        <i className="fab fa-youtube" />
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#">
-                        <i className="fab fa-pinterest-p" />
+                      <i className="fab fa-linkedin-in" />
                       </a>
                     </li>
                   </ul>
@@ -69,7 +63,7 @@ const Header1 = () => {
                 <Link legacyBehavior href="/index">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/logo-black.png"
+                      src="assets/images/logo/planet _logo_white2.png"
                       alt="Site Logo"
                     />
                   </a>
@@ -113,7 +107,7 @@ const Header1 = () => {
                 {/*====== Menu Button ======*/}
                 <div className="menu-button mt-40 d-xl-none">
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn secondary-btn">Get a Quote</a>
+                    <a className="main-btn secondary-btn">Contact Us</a>
                   </Link>
                 </div>
               </div>
@@ -121,7 +115,7 @@ const Header1 = () => {
               <div className="nav-right-item">
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn primary-btn">Get a Quote</a>
+                    <a className="main-btn primary-btn">Contact Us</a>
                   </Link>
                 </div>
                 <div
