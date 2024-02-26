@@ -17,12 +17,12 @@ const Footer3 = () => {
       <div className="footer-wrapper text-white main-bg p-r z-1">
         <div className="shape shape-one animate-float-y">
           <span>
-            <img src="assets/images/shape/tree.png" alt="Tree Image" />
+            <img src="assets/images/shape/recycle2.png" alt="Tree Image" />
           </span>
         </div>
         <div className="shape shape-two animate-float-y">
           <span>
-            <img src="assets/images/shape/tree2.png" alt="Tree Image" />
+            <img src="assets/images/shape/plant.png" alt="Tree Image" />
           </span>
         </div>
         <div className="container">
@@ -37,15 +37,15 @@ const Footer3 = () => {
                       <Link legacyBehavior href="/index">
                         <a>
                           <img
-                            src="assets/images/logo/logo-white.png"
+                            src="assets/images/logo/planet_logo_black.png"
                             alt="Logo"
                           />
                         </a>
                       </Link>
                     </div>
                     <p>
-                      Quis autem eum reprehenderit volutate velit quam molestiae
-                      conseuatur{" "}
+                    Planetmetrics focuses on Earth observation, specializing in the advancement, utilization, and integration of geospatial data and 
+                    cutting-edge intelligent technologies.{" "}
                     </p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn filled-btn filled-white">
@@ -61,12 +61,12 @@ const Footer3 = () => {
                   <h4 className="widget-title">Get In Touch</h4>
                   <div className="widget-content">
                     <ul className="info-list">
-                      <li>558 Main Street, 2nd Block Melbourne, Australia</li>
+                      <li>Planetmetrics LLC <br></br>418 Broadway STE N<br></br> Albany, New York 12207 </li>
                       <li>
-                        <a href="mailto:support@gmail.com">support@gmail.com</a>
+                        <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
                       </li>
                       <li>
-                        <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                        <a href="tel:+1(518)730-8922">(518)730-8922</a>
                       </li>
                     </ul>
                   </div>
@@ -96,75 +96,21 @@ const Footer3 = () => {
               </div>
               <div className="col-lg-3 col-md-6 col-sm-6">
                 {/*====== Footer Widget ======*/}
-                <div className="footer-widget footer-gallery-widget float-lg-right mb-40 wow fadeInUp">
-                  <h4 className="widget-title">Gallery</h4>
+                <div className="footer-widget footer-nav-widget mb-40 wow fadeInDown">
+                  <h4 className="widget-title">Quick Link</h4>
                   <div className="widget-content">
-                    <ul className="gallery-list">
+                    <ul className="footer-nav">
                       <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-1.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
+                        <a href="#">About Company</a>
                       </li>
                       <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-2.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
+                        <a href="#">Popular Services</a>
                       </li>
                       <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-3.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
+                        <a href="#">Need a Career ?</a>
                       </li>
                       <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-4.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-5.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <img
-                            src="assets/images/gallery/thumb-widget-6.jpg"
-                            alt="Image"
-                          />
-                          <div className="hover-overlay">
-                            <i className="fas fa-arrow-right" />
-                          </div>
-                        </a>
+                        <a href="#">Meet Our Team</a>
                       </li>
                     </ul>
                   </div>
@@ -178,7 +124,7 @@ const Footer3 = () => {
               <div className="col-lg-6">
                 {/*====== Copyright Text ======*/}
                 <div className="copyright-text">
-                  <p>Copy© 2023 Gadden. All Rights Reserved.</p>
+                  <p>© 2024 Planetmetrics LLC.</p>
                 </div>
               </div>
               <div className="col-lg-6">
@@ -191,9 +137,7 @@ const Footer3 = () => {
                     <li>
                       <a href="#">Faqs</a>
                     </li>
-                    <li>
-                      <a href="#">Food Menu</a>
-                    </li>
+                    
                   </ul>
                 </div>
               </div>
