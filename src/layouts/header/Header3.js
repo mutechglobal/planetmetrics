@@ -25,35 +25,38 @@ const Header3 = () => {
                 <div className="top-left">
                   <span>
                     <i className="far fa-envelope" />
-                    <b className="title">Email :</b>
-                    <a href="mailto:support@gmail.com">support@gmail.com</a>
+                    <b className="title">Email: </b>
+                    <a href="mailto:info@planetmetrics.us">info@planetmetrics.us</a>
                   </span>
                   <span>
                     <i className="far fa-phone-plus" />
-                    <b className="title">Call :</b>
-                    <a href="tel:+000(123)45688">+000 (123) 456 88</a>
+                    <b className="title">Call: </b>
+                    <a href="tel:+1(518)730-8922">(518)730-8922</a>
                   </span>
                   <span>
                     <i className="far fa-map-marker-alt" />
-                    <b className="title">Location :</b>55 Main Street, New York
+                    <b className="title">Location: </b>Albany, New York
                   </span>
                 </div>
               </div>
               <div className="col-lg-4">
                 {/*====== Top Right ======*/}
                 <div className="top-right float-lg-right">
-                  <ul className="social-link">
+                <ul className="social-link">
                     <li>
-                      <a href="#">Facebook</a>
+                      <a href="#">
+                        <i className="fab fa-facebook-f" />
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Twitter</a>
+                      <a href="#">
+                        <i className="fab fa-twitter" />
+                      </a>
                     </li>
                     <li>
-                      <a href="#">Instagram</a>
-                    </li>
-                    <li>
-                      <a href="#">YouTube</a>
+                      <a href="#">
+                      <i className="fab fa-linkedin-in" />
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -72,7 +75,7 @@ const Header3 = () => {
                 <Link legacyBehavior href="/index">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/logo-white-two.png"
+                      src="assets/images/logo/planet_logo_black.png"
                       alt="Site Logo"
                     />
                   </a>
@@ -85,7 +88,7 @@ const Header3 = () => {
                   <Link legacyBehavior href="/index">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo-black.png"
+                        src="assets/images/logo/planet_logo_black.png"
                         alt="Site Logo"
                       />
                     </a>
@@ -119,23 +122,23 @@ const Header3 = () => {
               </div>
               {/*======= Nav Right Item ======*/}
               <div className="nav-right-item d-flex align-items-center">
-                <div className="lang-dropdown">
+                {/* <div className="lang-dropdown">
                   <select className="wide">
                     <option value="English">English</option>
                     <option value="French">French</option>
                   </select>
-                </div>
-                <div
+                </div> */}
+                {/* <div
                   className="search-btn"
                   data-toggle="modal"
                   data-target="#search-modal"
                   onClick={() => setSearchModal(true)}
                 >
                   <i className="far fa-search" />
-                </div>
+                </div> */}
                 <div className="menu-button d-xl-block d-none">
                   <Link legacyBehavior href="/contact">
-                    <a className="main-btn secondary-btn">Book now</a>
+                    <a className="main-btn secondary-btn">Contact Us</a>
                   </Link>
                 </div>
                 <div

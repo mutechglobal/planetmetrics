@@ -1,5 +1,5 @@
 {
-  "name": "gadden-react",
+  "name": "planetmetrics-react",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,11 +11,11 @@
   "dependencies": {
     "@next/font": "13.2.3",
     "isotope-layout": "^3.0.6",
-    "next": "^13.5.6",
-    "react": "18.2.0",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^1.6.1",
     "react-countup": "^6.4.1",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-nice-select": "^1.0.4",
     "react-slick": "^0.29.0",
     "react-visibility-sensor": "^5.1.1",

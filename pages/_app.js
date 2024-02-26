@@ -18,7 +18,7 @@ const App = ({ Component, pageProps }) => {
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="description"
-          content="Landscaping, Gardening, Florists, Groundskeeping"
+          content="GHG Accounting and Mitigation, Satellite Remote Sensing, Water Resource Management, Wild Fire Mitigation, Sustainability Modeling, Air Quality Dynamics and Modeling "
         />
         <meta
           name="viewport"
