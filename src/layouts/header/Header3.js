@@ -160,7 +160,7 @@ const Header3 = () => {
         </div>
         <MobileMenu
           handleShow={handleShow}
-          logo="assets/images/logo/logo-white-two.png"
+          logo="assets/images/logo/planet_logo_black.png"
           extraClass={"main-bg navigation-white"}
           barIcon="assets/images/bar2.png"
         />

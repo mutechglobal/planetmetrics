@@ -14,7 +14,7 @@ const Default = () => {
                     <Link legacyBehavior href="/index">
                       <a>
                         <img
-                          src="assets/images/logo/logo-white.png"
+                          src="assets/images/logo/planet _logo_white2.png"
                           alt="Logo"
                         />
                       </a>

@@ -142,7 +142,7 @@ const Default = () => {
                 <Link legacyBehavior href="/index">
                   <a className="brand-logo">
                     <img
-                      src="assets/images/logo/logo-white-two.png"
+                      src="assets/images/logo/planet _logo_white2.png"
                       alt="Site Logo"
                     />
                   </a>
@@ -150,7 +150,7 @@ const Default = () => {
                 <Link legacyBehavior href="/index">
                   <a className="sticky-logo">
                     <img
-                      src="assets/images/logo/logo-black.png"
+                      src="assets/images/logo/planet _logo_white2.png"
                       alt="Site Logo"
                     />
                   </a>
@@ -163,7 +163,7 @@ const Default = () => {
                   <Link legacyBehavior href="/index">
                     <a className="brand-logo">
                       <img
-                        src="assets/images/logo/logo-black.png"
+                        src="assets/images/logo/planet _logo_white2.png"
                         alt="Site Logo"
                       />
                     </a>
@@ -218,7 +218,7 @@ const Default = () => {
           </div>
           <MobileMenu
             handleShow={handleShow}
-            logo="assets/images/logo/logo-white-two.png"
+            logo="assets/images/logo/planet _logo_white2.png"
           />
         </div>
       </header>

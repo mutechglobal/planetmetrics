@@ -24,7 +24,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               <Link legacyBehavior href="/index">
                 <a className="brand-logo">
                   <img
-                    src={logo ? logo : "assets/images/logo/logo-black.png"}
+                    src={logo ? logo : "assets/images/logo/planet _logo_white2.png"}
                     alt="Site Logo"
                   />
                 </a>
@@ -37,14 +37,14 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                 <Link legacyBehavior href="/index">
                   <a className="brand-logo">
                     <img
-                      src={"assets/images/logo/logo-black.png"}
+                      src={"assets/images/logo/planet _logo_white2.png"}
                       alt="Site Logo"
                     />
                   </a>
                 </Link>
               </div>
               {/*=== Nav Search ===*/}
-              <div className="nav-search mb-30 d-block d-xl-none ">
+              {/* <div className="nav-search mb-30 d-block d-xl-none ">
                 <form onSubmit={(e) => e.preventDefault()}>
                   <div className="form_group">
                     <input
@@ -59,7 +59,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
               {/*====== main Menu ======*/}
               <nav className="main-menu">
                 <ul>
@@ -228,7 +228,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
               {/*====== Menu Button ======*/}
               <div className="menu-button mt-40 d-xl-none">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn secondary-btn">Get a Quote</a>
+                  <a className="main-btn secondary-btn">Contact Us</a>
                 </Link>
               </div>
             </div>
@@ -236,7 +236,7 @@ const MobileMenu = ({ handleShow, logo, extraClass, barIcon }) => {
             <div className="nav-right-item d-flex align-items-center">
               <div className="menu-button d-xl-block d-none">
                 <Link legacyBehavior href="/contact">
-                  <a className="main-btn primary-btn">Get a Quote</a>
+                  <a className="main-btn primary-btn">Contact Us</a>
                 </Link>
               </div>
               <div

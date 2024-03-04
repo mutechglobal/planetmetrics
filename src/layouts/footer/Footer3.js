@@ -44,8 +44,7 @@ const Footer3 = () => {
                       </Link>
                     </div>
                     <p>
-                    Planetmetrics focuses on Earth observation, specializing in the advancement, utilization, and integration of geospatial data and 
-                    cutting-edge intelligent technologies.{" "}
+                    Our mission is to deliver pioneering and efficient strategies to tackle today's global environmental challenges.{" "}
                     </p>
                     <Link legacyBehavior href="/contact">
                       <a className="main-btn filled-btn filled-white">
